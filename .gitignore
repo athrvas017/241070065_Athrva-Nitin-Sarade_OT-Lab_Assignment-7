@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+*/.venv/
+venv/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archives (submitting via GitHub link)
+*.zip
+*.tar.gz
+*.rar
+
+# Notebook checkpoints & logs
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.log
+.pytest_cache/
+
+# Local OS files
+.DS_Store
+Thumbs.db
